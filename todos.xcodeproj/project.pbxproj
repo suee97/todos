@@ -9,21 +9,24 @@
 /* Begin PBXBuildFile section */
 		5BCE96182952F80C002F4135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE96172952F80C002F4135 /* AppDelegate.swift */; };
 		5BCE961A2952F80C002F4135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE96192952F80C002F4135 /* SceneDelegate.swift */; };
-		5BCE961C2952F80C002F4135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE961B2952F80C002F4135 /* ViewController.swift */; };
+		5BCE961C2952F80C002F4135 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE961B2952F80C002F4135 /* mainViewController.swift */; };
 		5BCE961F2952F80C002F4135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE961D2952F80C002F4135 /* Main.storyboard */; };
 		5BCE96212952F80D002F4135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE96202952F80D002F4135 /* Assets.xcassets */; };
 		5BCE96242952F80D002F4135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE96222952F80D002F4135 /* LaunchScreen.storyboard */; };
+		5BCE962E2953059E002F4135 /* todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE962D2953059E002F4135 /* todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BCE96142952F80C002F4135 /* todos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCE96172952F80C002F4135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BCE96192952F80C002F4135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BCE961B2952F80C002F4135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BCE961B2952F80C002F4135 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		5BCE961E2952F80C002F4135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BCE96202952F80D002F4135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BCE96232952F80D002F4135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BCE96252952F80D002F4135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCE962D2953059E002F4135 /* todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo.swift; sourceTree = "<group>"; };
+		5BD5967B295354E40014EE8F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +61,13 @@
 			children = (
 				5BCE96172952F80C002F4135 /* AppDelegate.swift */,
 				5BCE96192952F80C002F4135 /* SceneDelegate.swift */,
-				5BCE961B2952F80C002F4135 /* ViewController.swift */,
+				5BCE961B2952F80C002F4135 /* mainViewController.swift */,
 				5BCE961D2952F80C002F4135 /* Main.storyboard */,
 				5BCE96202952F80D002F4135 /* Assets.xcassets */,
 				5BCE96222952F80D002F4135 /* LaunchScreen.storyboard */,
 				5BCE96252952F80D002F4135 /* Info.plist */,
+				5BCE962D2953059E002F4135 /* todo.swift */,
+				5BD5967B295354E40014EE8F /* README.md */,
 			);
 			path = todos;
 			sourceTree = "<group>";
@@ -138,9 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BCE961C2952F80C002F4135 /* ViewController.swift in Sources */,
+				5BCE961C2952F80C002F4135 /* mainViewController.swift in Sources */,
 				5BCE96182952F80C002F4135 /* AppDelegate.swift in Sources */,
 				5BCE961A2952F80C002F4135 /* SceneDelegate.swift in Sources */,
+				5BCE962E2953059E002F4135 /* todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
